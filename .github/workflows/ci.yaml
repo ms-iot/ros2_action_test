@@ -14,7 +14,6 @@ jobs:
         os: [windows-latest]
       fail-fast: false
     steps:
-    - name: Setup ROS 2 and Build
     - uses: ros-tooling/setup-ros@master
     - uses: ros-tooling/action-ros-ci@master
       with:
